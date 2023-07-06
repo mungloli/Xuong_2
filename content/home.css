@@ -1,0 +1,64 @@
+:root{
+    --primary-color:#ecaf82;
+    --second-color:#dd8546;
+}
+.nav_link{
+    transition: ease .3s;
+}
+.nav_link:hover{
+    color: var(--primary-color) ;
+}
+.btn_search{
+    transition: ease .3s;
+}
+.btn_search:hover{
+    background-color: #dd8546;
+}
+.user_menu{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0,.3) ;
+}
+.avatar:hover .user_menu{
+    display: block;
+}
+.icon{
+    transition: ease .2s;
+}
+.icon:hover{
+    color: var(--second-color);
+}
+.user_link:hover{
+    color: var(--primary-color);
+}
+.text_box{
+    opacity: 0;
+    display: none;
+    transition: all ease-in .3s;
+}
+.btn_action:hover .text_box{
+    display: block;
+    opacity: 1;
+}
+.btn_action:hover{
+    background-color: var(--primary-color);
+}
+.product_item{
+    
+    transition: all ease .3s;
+}
+.functional_btn{
+    transform: translateY(12px);
+    opacity: 0;
+    transition: all ease .3s;
+}
+.product_item:hover .functional_btn{
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+.brand_img{
+    transition: ease .3s;
+}
+.brand_item:hover .brand_img{
+    opacity: .5;
+    
+}
