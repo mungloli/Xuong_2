@@ -42,7 +42,6 @@
     background-color: var(--primary-color);
 }
 .product_item{
-    
     transition: all ease .3s;
 }
 .functional_btn{
