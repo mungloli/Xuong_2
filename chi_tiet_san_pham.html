@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- slick slide-show -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- cdn tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="content/home.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="w-[1290px] mx-auto flex items-center py-3">
+            <div class="w-[322px]" >
+                <a href="#"><img src="img/logo-1670322125.jpg" alt=""></a>
+            </div>
+            <div class="">
+                <ul class="flex">
+                    <li><a class="nav_link font-bold p-5 pl-0" href="#">Home</a></li>
+                    <li><a class="nav_link font-bold p-5" href="#">Shop</a></li>
+                    <li><a class="nav_link font-bold p-5" href="#">About</a></li>
+                    <li><a class="nav_link font-bold p-5" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center ml-auto w-max" >
+                <form class="flex mr-3" action="" >
+                    <input class="h-10 pl-1 outline-none border rounded-l-lg" type="text">
+                    <button class="btn_search h-10 bg-[#ECAF82] w-10 rounded-r-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="px-3 avatar relative">
+                    <img class=" w-12 h-12 cursor-pointer" src="img/avatar.jpg" alt="">
+                    <div class="hidden absolute top-14 right-0 user_menu z-10 bg-white w-[200px] p-3">
+                        <div class="h-3 w-full absolute -top-3 right-0"></div>
+                        <ul>
+                            <li class="px-1 py-2"><a class="user_link" href="#">Sign in</a></li>
+                            <li class="px-1 py-2"><a class="user_link" href="#">Resiger</a></li>
+                            <li class="px-1 py-2"><a class="user_link" href="#">My account</a></li>
+                            <li class="px-1 py-2"><a class="user_link" href="#">Wishlist (0)</a></li>
+                            <li class="px-1 py-2"><a class="user_link" href="#">Compare (0)</a></li>
+                            <li class="px-1 py-2"><a class="user_link" href="#">Checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="icon m-3 text-2xl cursor-pointer relative">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="absolute -top-1 -right-2 text-xs rounded-full text-white bg-red-500 w-4 h-4 text-center">5</span>
+                </div>
+                <div class="icon ml-3 text-2xl cursor-pointer relative">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="absolute -top-1 -right-2 text-xs rounded-full text-white bg-red-500 w-4 h-4 text-center">5</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- product -->
+    <div>
+        <div class="max-w-5xl mx-auto grid grid-cols-2">
+            <div>
+                <div class="relative">
+                    <img class="" width="100%" src="img/product1.jpg" alt="">
+                </div>
+                <div class="flex items-center">
+                    <div class="border">
+                        <img src="img/product1.jpg" alt="" width="100px" height="100px">
+                    </div>
+                    <div>
+                        <img src="img/product1.jpg" alt="" width="100px" height="100px">
+                    </div>
+                    <div>
+                        <img src="img/product1.jpg" alt="" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Hummingbird printed t-shirt</h2>
+                <div class="flex items-center text-sm my-2">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <span class="text-lg font-bold text-[#ECAF82]">$12</span>
+                <p>Regular fit, round neckline, short sleeves. Made of extra long staple pima cotton.</p>
+                <div class="flex my-5">
+                    <span class="w-14 font-medium">Size</span>
+                    <ul class="flex gap-5">
+                        <li class=""><label for="size-s" class="relative w-10 h-6 border block">
+                            <input type="radio" name="size" id="size-s">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-white font-medium">S</span>
+                        </label></li>
+                        <li><label for="size-m" class="relative w-10 h-6 border block">
+                            <input type="radio" name="size" id="size-m">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-white font-medium">M</span>
+                        </label></li>
+                        <li><label for="size-l" class="relative w-10 h-6 border block">
+                            <input type="radio" name="size" id="size-l">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-white font-medium">L</span>
+                        </label></li>
+                        <li><label for="size-xl" class ="relative w-10 h-6 border block">
+                            <input type="radio" name="size" id="size-xl">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-white font-medium">XL</span>
+                        </label></li>
+                    </ul>
+                </div>
+                <div class="flex my-5">
+                    <span class="w-14 font-medium">Color</span>
+                    <ul class="flex gap-5">
+                        <li class=""><label for="size-s" class="relative w-5 h-5 border block">
+                            <input class="input_size" type="radio" name="size" id="size-s">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-white font-medium"></span>
+                        </label></li>
+                        <li><label for="size-m" class="relative w-5 h-5 border block">
+                            <input type="radio" name="size" id="size-m">
+                            <span class="absolute top-0 left-0 flex w-full h-full justify-center items-center bg-black font-medium"></span>
+                        </label></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="mb-2">
+                        <span class="font-medium">Quanlity</span>
+                    </div>
+                    <div class="border w-max inline-block">
+                        <button class="bg-white outline-none p-3 mr-3">-</button>
+                        <span>1</span>
+                        <button class="bg-white outline-none p-3 ml-3">+</button>
+                    </div>
+                    <button class="bg-black px-7 h-12 text-white rounded-lg hover:bg-[#ECAF82] duration-300">
+                        <i class="mr-2 fa-solid fa-bag-shopping"></i>
+                        Add to cart
+                    </button>
+                    <button class="border w-12 h-12 rounded-lg hover:border-[#ECAF82] hover:text-[#ECAF82] duration-300">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="border w-12 h-12 rounded-lg hover:border-[#ECAF82] hover:text-[#ECAF82] duration-300">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </button>
+                    <div class="border-t-2 mt-7 pt-5">
+                        <ul>
+                            <li><label class="font-bold" for="">Brand: <span class="font-normal text-gray-600">Studio Design</span></label></li>
+                            <li><label class="font-bold" for="">Categories:<span class="font-normal text-gray-600">Home Clothes Men</span></label></li>
+                            <li><label class="font-bold" for="">Sku: <span class="font-normal text-gray-600">Demo 01</span></label></li>
+                        </ul>
+                        
+                    </div>
+                    <div>
+                        <div class="border py-3 px-5 my-3 flex items-center">
+                            <i class="text-[#ECAF82] text-4xl fa-solid fa-lock"></i>
+                            <div class="ml-4">
+                                <h3 class="font-medium">Security policy</h3>
+                                <span class="text-sm">(edit with the Customer Reassurance module)</span>
+                            </div>
+                        </div>
+                        <div class="border py-3 px-5 my-3 flex items-center">
+                            <i class="text-[#ECAF82] text-3xl fa-solid fa-truck-fast"></i>
+                            <div class="ml-4">
+                                <h3 class="font-medium">Delivery policy</h3>
+                                <span class="text-sm">(edit with the Customer Reassurance module)</span>
+                            </div>
+                        </div>
+                        <div class="border py-3 px-5 my-3 flex items-center">
+                            <i class="text-[#ECAF82] text-3xl fa-solid fa-people-carry-box"></i>
+                            <div class="ml-4">
+                                <h3 class="font-medium">Return policy</h3>
+                                <span class="text-sm">(edit with the Customer Reassurance module)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESCRIPTION -->
+    <div>
+        <div class="max-w-5xl mx-auto border rounded-lg p-5">
+            <h3 class="font-medium text-3xl">DESCRIPTION</h3>
+            <div class="pt-3 mt-3 border-t-2">
+                <p>Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy. Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. 
+                    To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- review and feedback -->
+    <div class="mt-5">
+        <div class="max-w-5xl max-h-[460px] mx-auto grid grid-cols-2 gap-5">
+            <!-- review -->
+            <div class="border rounded-lg p-5">
+                <h2 class="font-medium text-3xl">Review</h2>
+                <div class="pt-3 mt-3 border-t-2">
+                    <h2 class="font-medium text-lg">Jone</h2>
+                    <div class="flex items-center text-sm my-2">
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span class="text-gray-600">Date: 01/01/2023</span>
+                    <p>Good</p>
+                </div>
+                <div class="pt-3 mt-3 border-t-2">
+                    <h2 class="font-medium text-lg">Jone</h2>
+                    <div class="flex items-center text-sm my-2">
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span class="text-gray-600">Date: 01/01/2023</span>
+                    <p>Good</p>
+                </div>
+                <div class="pt-3 mt-3 border-t-2">
+                    <h2 class="font-medium text-lg">Jone</h2>
+                    <div class="flex items-center text-sm my-2">
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="text-yellow-400 fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span class="text-gray-600">Date: 01/01/2023</span>
+                    <p>Good</p>
+                </div>
+            </div>
+            <!-- feedback -->
+            <div class="border rounded-lg p-5">
+                <h2 class="font-medium text-3xl">Feedback</h2>
+                <div class="pt-3 mt-3 border-t-2">
+                    <form action="">
+                        <div class="flex items-center text-xl my-2">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <textarea class="border w-full outline-none" name="" id="" cols="" rows="5"></textarea>
+                        <button class="px-7 py-3 border font-medium 
+                        hover:border-[#ECAF82] hover:text-[#ECAF82] rounded-md float-right duration-200">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe -->
+    <div class="bg-[url('img/bg-newletter.webp')] bg-no-repeat bg-center mt-5">
+        <div class="w-[1290px] mx-auto flex items-center py-10">
+            <div class="border-r-2 max-w-[365px] pr-3">
+                <h2 class="text-white font-bold text-3xl">Sign Up and Get 10% Off First Purchase</h2>
+            </div>
+            <div class="max-w-[340px] pl-10">
+                <p class="text-white">Subscribe to our newsletter and know first about all the promotions and discounts. Be always trendy.</p>
+            </div>
+            <div class="flex-1">
+                <form action="" class="flex float-right">
+                    <input class="w-[430px] pl-2 outline-none rounded-l-md" type="text" placeholder="Your email address">
+                    <button class="bg-[#ECAF82] text-white px-5 py-3 rounded-r-md hover:bg-[#dd8546] duration-200">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="pb-10">
+        <div class="w-[1290px] mx-auto grid grid-cols-4 border-b-2 py-14">
+            <div>
+                <h2 class="font-bold text-lg">Contact Us</h2>
+                <ul class="mt-8">
+                    <li class="text-gray-600 py-1"><i class=" mr-3 fa-solid fa-location-arrow"></i>451 Wall Street, UK, London</li>
+                    <li class="text-gray-600 py-1"><i class=" mr-3 fa-solid fa-phone"></i>Phone: (+084) 333-1233</li>
+                    <li class="text-gray-600 py-1"><i class=" mr-3 fa-regular fa-address-book"></i>demo@demo.com.</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-bold text-lg">My Account</h2>
+                <ul class="mt-8">
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">The board</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Accessories</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">FAQs</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-bold text-lg">Product</h2>
+                <ul class="mt-8">
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Order</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Downloads</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Addresses</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Account details</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-bold text-lg">Design Blog</h2>
+                <ul class="mt-8">
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Blog</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Forums</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">Builders Showcase</a></li>
+                    <li class="py-1"><a class="text-gray-600 hover:text-[#ECAF82]" href="#">How-To Guides</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-10">
+            <p class="font-medium">Copyright © 2022 - mixxstore. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
