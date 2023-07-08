@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- slick slide-show -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- cdn tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="content/home.css">
+</head>
+<body>
+    <div class="w-screen h-screen flex justify-center items-center">
+        <div class="w-[600px] rounded-lg border h-max">
+            <div class="text-right p-3">
+                <button class="text-xl"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="p-3 border-t-2">
+                <h2 class="font-medium text-xl">New Account Register</h2>
+                <form action="" class="w-full my-3">
+                    <div>
+                        <label class="mr-2" for="men"><input class="mr-2" name="gioi_tinh" id="men" type="radio">Mr.</label >
+                        <label class="ml-2" for="women"><input class="mr-2" name="gioi_tinh" id="women" type="radio">Mrs.</label>
+                    </div>
+                    <input class="block outline-none border pl-2 my-2 h-10 w-full" type="text" placeholder="Frist name">
+                    <input class="block outline-none border pl-2 my-2 h-10 w-full" type="text" placeholder="Last name">
+                    <input class="block outline-none border pl-2 my-2 h-10 w-full" type="text" placeholder="Email address">
+                    <input class="block outline-none border pl-2 my-2 h-10 w-full" type="text" placeholder="Password">
+                    <label class="block my-2" for="terms"><input class="mr-1" id="terms" type="checkbox">I agree to the terms.</label>
+                    <label class="block my-2" for="newletter"><input class="mr-1" id="newletter" type="checkbox">Sign up for our newsletter</label>
+                    <button class="bg-black rounded-lg text-white w-full h-10 hover:bg-[#ECAF82] duration-200">Create an Account</button>
+                </form>
+                <p>Already have an account?</p>
+                <p><a class="hover:text-[#ECAF82] duration-200" href="#">Log in instead</a> or <a class="hover:text-[#ECAF82] duration-200" href="#"> Reset password</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
